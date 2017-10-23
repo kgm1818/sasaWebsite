@@ -1,0 +1,1 @@
+function getCookie(e){for(var t=document.cookie.split("; "),r=0;r<t.length;r++){var i=t[r].split("=");if(i[0]==e)return i[1]}return[]}function setCookie(e,t,r){if(arguments.length<2)return"error:参数不能少于两个";var i=e+"="+t;if(r){var o=new Date;o.setTime(parseInt(r)+o.getTime()),i+=";expires="+o}document.cookie=i}
